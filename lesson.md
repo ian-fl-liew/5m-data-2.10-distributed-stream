@@ -11,7 +11,9 @@ You can activate it via:
 ```
 conda activate kafka
 ```
-
+dd if=/mnt/c/Users/seanl/AppData/Local/Docker/wsl/disk/docker_data.vhdx \
+   of=/mnt/f/DockerData/docker_data.vhdx \
+   bs=64M conv=sparse status=progress
 Next, we need to host kafka locally via docker.
 
 The learner is first requested to install docker via this link before running the below commands: 
